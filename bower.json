@@ -1,0 +1,17 @@
+{
+  "name": "startcode.dev.utils",
+  "homepage": "https://github.com/start-code-dev/startcode.dev.utils.git",
+  "authors": [
+    "Drasko Gomboc <drasko.gomboc@gmail.com>"
+  ],
+  "description": "global utils for all projects",
+  "main": "src/_utils.scss",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "utils",
+    "utils for global projects"
+  ],
+  "license": "MIT"
+}
