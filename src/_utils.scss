@@ -1,0 +1,79 @@
+.reset_margin {
+    margin: 0px !important;
+}
+.hidden, .hide {
+    display: none !important;
+    visibility: hidden !important;
+}
+.show {
+    display: block !important;
+    visibility: visible !important;
+}
+.active {
+    display: block;
+    visibility: visible;
+}
+.block {
+    display: block !important;
+}
+.left, .pull_left {
+    float: left;
+}
+
+.right, .pull_right {
+    float: right;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.first_letter_uppercase:first-letter  {
+  text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+.has_error {
+    input,
+    select {
+        border: 1px solid red!important;
+    }
+}
+.invisible {
+    opacity: 0;
+    // IE8 filter
+    ie: 0 * 100;
+    filter: #{alpha(opacity = 0-ie)};
+}
+
+.error_message {
+    position: relative;
+    color: red;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    &:first-letter {
+        text-transform: uppercase;
+    }
+}
+.full_width {
+    width: 100%;
+}
+.half_width {
+    width: 50%;
+}
+
+.half_width-1 {
+    width: 49%;
+}
+.clearfix {
+    clear: both;
+}
+.margin_auto {
+    margin: 0 auto;
+}
+
+.hide_from_screen {
+    left: -10000px !important;
+    position: absolute !important;
+}
